@@ -1,0 +1,27 @@
+ls
+ps
+exit
+ls
+cd ~
+ls
+cd /
+ls
+ls -al
+cd ~
+ls -al
+cd .config
+ls -al
+cd nushell
+ls -al
+cat config.nu
+config nu --doc | nu-highlight | less -R
+exit
+json > from json -s
+json 
+clear
+open json
+open json --raw
+clear
+open test.json --raw
+open test.json 
+exit
