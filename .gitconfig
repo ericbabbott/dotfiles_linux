@@ -1,4 +1,5 @@
 [init]
 	defaultBranch = main
 [user]
-	name = Abbott
+	name = abbott
+	email = ericbabbott@gmail.com
