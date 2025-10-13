@@ -111,3 +111,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+. "$HOME/.local/bin/env"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

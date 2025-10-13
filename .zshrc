@@ -1,3 +1,6 @@
+# Set up fzf key bindings and fuzzy completion
+# source <(fzf --zsh)
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -82,7 +85,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -123,3 +125,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 alias config='/usr/bin/git --git-dir=/home/abbott/.dotfiles/ --work-tree=/home/abbott'
+
+. "$HOME/.local/bin/env"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
