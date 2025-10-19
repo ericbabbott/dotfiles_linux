@@ -1,0 +1,17 @@
+curl -LsSO "https://raw.githubusercontent.com/catppuccin/gtk/v1.0.3/install.py"
+python3 install.py <flavor> <accent>
+  [catppuccin-gtk] [INFO] - Installation info:
+      flavor:     mocha
+      accent:     blue
+      dest:       /home/<user>/.local/share/themes
+      link:       False
+
+      remote_url: https://github.com/catppuccin/gtk/releases/download/v1.0.3/catppuccin-mocha-blue-standard+default.zip
+  [catppuccin-gtk] [INFO] - Starting download...
+  [catppuccin-gtk] [INFO] - Response status: 200
+  [catppuccin-gtk] [INFO] - Download finished, zip is valid
+  [catppuccin-gtk] [INFO] - Verifying download..
+  [catppuccin-gtk] [INFO] - Download verified
+  [catppuccin-gtk] [INFO] - Extracting...
+  [catppuccin-gtk] [INFO] - Extraction complete
+  [catppuccin-gtk] [INFO] - Theme installation complete! 
