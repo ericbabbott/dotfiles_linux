@@ -129,3 +129,5 @@ alias config='/usr/bin/git --git-dir=/home/abbott/.dotfiles/ --work-tree=/home/a
 . "$HOME/.local/bin/env"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+bindkey -v

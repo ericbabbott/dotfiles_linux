@@ -248,7 +248,7 @@ gaps inner 6
 # window or split container on the workspace.
 # smart_gaps on|off|inverse_outer
 
-
+# i3lock --color 1c202e
 
 #################################################################
 
